@@ -1,0 +1,34 @@
+/* Change the font of the app */
+/* $baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
+$navbarBackgroundHighlight: green;
+$navbarBackground: green;
+$btnPrimaryBackground: green;
+$navbarLinkColor: white;
+$navbarLinkColorHover: orange;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.nav .divider-vertical {
+  border-right-color: #ffffff;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
