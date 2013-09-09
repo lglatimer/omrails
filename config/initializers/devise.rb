@@ -251,6 +251,6 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = "/my_engine/users/auth"
 
   # Secret key requested when I push to Heroku
-  # config.secret_key = 'dab5b115437f534c14a2452a030317496157cb4214e60e0499f8929b7968fc1959b516401d2b9b11dfd6e66f147edfe7c7f73a5478c802bc9201bb7a848ed670'
-  
+  config.secret_key = '9286d6e3102132999713778ca0466c6bc736a43d4b58f4a7617170093961292408eedaf92372500c040a013c3edc940a782a620690e9721b9c0d59fe7ff34d73'  
+
 end
